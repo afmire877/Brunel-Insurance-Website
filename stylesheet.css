@@ -1,0 +1,163 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+html,body {
+	height:100%;
+	margin: 0;
+}
+* {
+	box-sizing: border-box;
+}
+h1  {
+	text-align: center;
+	padding-top: 114px;
+	margin:0 auto;
+	font-weight: 700;
+}
+.banner button {
+	display: block;
+	margin:10px auto;
+}
+body {
+	font-family: 'Proza Libre', sans-serif;
+
+}
+.purplebg {
+	background-color:#6b207d;
+}
+.btn  a {
+	color: white;
+}
+
+.about, .footer ul {
+	display: inline-block;
+}
+.img-thumbnail {
+	max-height: 300px;
+	max-width: 300px;
+}
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+#navbar {
+	background: white;
+	display: flex;
+	flex: ;
+
+}
+#navbar img {
+	margin-left: 20px;
+}
+.topnav {
+	width:100%;
+}
+.main-nav {
+	display:none;
+}
+li {
+	list-style: none;
+}
+.icon i {
+	padding: 38.5px 38.5px;
+	margin-left:100px ;
+	float:right;
+}
+.types {
+	margin: 0 auto;
+	vertical-align: top;
+	box-sizing: content-box;
+	margin-bottom: 20px;
+}
+.types img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+/* ---- Layout Containers ---- */
+.banner {
+	border-radius: 0;
+	color:white;
+	height: 100vh;
+	background-image: linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,.5)), url("assets/img/car.jpg");
+	overflow: auto;
+	background-size: cover;
+	min-width:100%;
+
+}
+div.jumbotron {
+	margin-bottom:0;
+}
+.oneline {
+	margin: auto auto;
+}
+.flexcon {
+	display: flex;
+}
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -50px;
+}
+.footer {
+	background-color: pink;
+	margin-top: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.card {
+	display: inline-flex;
+
+
+}
+
+
+/* ---- Page Elements ---- */
+.figcap {
+	display: block;
+	text-align: center;
+
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 900px) {
+	.main-nav  {
+	    float: right;
+	    display: inline-block;
+	    color: #6b207d;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	    font-size: 17px;	
+	}
+	.topnav ul li {
+		list-style: none;
+		
+	}
+	.oneline h1  {
+		padding-top: 160px;
+		overflow: none;
+		margin-top: auto auto;
+	}
+	.topnav ul li a {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		list-style: none;
+		float:left;
+	}
+
+	.icon i {
+		
+   		display: none;
+	}
+
+}
+@media (min-width: 1025px) {
+
+}
+
+
+
