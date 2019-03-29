@@ -11,11 +11,3 @@ for(var i= 0; i <= questions.length -1 ;i++){
   });
   }
 
-  // function showAnswer(e){
-  //   if (e.target !== e.currentTarget ){
-  //     var clickedElement = e.target.class;
-  //     cosole.log(asnwer[i])
-
-  //   }
-  //   e.stopPropagation();
-  // };
